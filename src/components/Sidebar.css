@@ -1,0 +1,62 @@
+button {
+  background: none;
+  border: none;
+  color: #08C;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto 10px;
+}
+
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.app-sidebar-header {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.app-sidebar-header h1 {
+  margin: 0;
+}
+
+.app-sidebar-notes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+
+.app-sidebar-note {
+  margin: 0px auto 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.sidebar-note-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-sidebar-note p {
+  margin: 10px 0;
+}
+
+.app-sidebar-note small {
+  color: #999;
+}
+
+.app-sidebar-note:hover {
+  background-color: #dcdcdc;
+}
+
+.app-sidebar-note.active {
+  background-color: #dcdcdc;
+}
